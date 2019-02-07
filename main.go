@@ -69,6 +69,6 @@ func main() {
 	})
 
 	if err != nil {
-		log.Printf(err.Error())
+		log.Panic(err.Error())
 	}
 }
