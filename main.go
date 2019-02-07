@@ -11,6 +11,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	"go.uber.org/dig"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 type Server struct {
