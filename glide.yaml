@@ -1,0 +1,8 @@
+package: cuso-blog
+import:
+- package: github.com/gin-gonic/gin
+- package: github.com/jinzhu/gorm
+  subpackages:
+  - dialects/mysql
+- package: go.uber.org/dig
+  version: ^1
