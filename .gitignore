@@ -20,4 +20,7 @@
 /vendor/
 /Godeps/
 
+# Debug file of the go debugger
+debug
+
 # End of https://www.gitignore.io/api/go
